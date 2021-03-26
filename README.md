@@ -26,7 +26,7 @@ The ‘sinchAuthNode’ is a simple authentication node for **[ForgeRock's Ident
 How does Sinch Auth Node work?  Once configured, the Forge Rock AM integrated Sinch Auth Node allows your mobile (iOS/Android) and web apps to initiate a phone number verification through Sinch communications platform.  Exemplary flow as follows:
 
 <p align="center">
-<img src="./img/fb_message_text.jpg">
+<img src="./img/sinch_swimlanes.png">
 </p>
 
 # Sinch Auth Node Usage
@@ -37,7 +37,7 @@ The code in this repository has binary dependencies that live in the ForgeRock m
 To begin, you will need to contact Sinch Enterprise sales team via email at: forgerock@sinch.com.  A Sinch Sales executive will contact you to discuss pricing, enable [Sinch portal](https://go.sinch.com/l/151751/2021-02-26/ywl2nc) test access, and provide service credits for your development team to begin integration.
 
 <p align="center">
-<img src="./img/fb_message_text.jpg">
+<img src="./img/sinch_com_home.png">
 </p>
  
 Once you have access to the Sinch **[“Voice, Video, and Verification”](https://go.sinch.com/l/151751/2021-02-26/ywl2nc)** portal you may:
@@ -63,7 +63,7 @@ The SinchCodeCollectorNode node prompts the user to enter the verification code 
 The example flow presents a Forge Rock AM enabled login page where user enters his credentials, then if present it validates the number taken from the profile or asks the user to enter it manually.
 
 <p align="center">
-<img src="./img/fb_message_text.jpg">
+<img src="./img/fr_workflow.png">
 </p>
 
 The sample code described herein is provided on an "as is" basis, without warranty of any kind, to the fullest extent permitted by law. ForgeRock does not warrant or guarantee the individual success developers may have in implementing the sample code on their development platforms or in production configurations.
